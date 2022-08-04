@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    width: 25%;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    border: solid black 2px;
+    border-radius: 60px;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.rightNav {
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#search {
+    padding: 5px;
+    margin-right: 6px;
+    border: solid 2px grey;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../img/8.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 65%;
+    margin: auto;
+}
+
+.firstHalf {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 38px;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 5px 15px;
+    margin: 8px 3px;
+    border: solid 2px white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-sm {
+    padding: 5px 15px;
+    margin: 8px 3px;
+    border: solid 2px white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-dark {
+    border: solid 2px black;
+    color: black;
+    padding: 5px 15px;
+    margin: 8px 3px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    background-color: grey;
+}
+
+.btn:hover {
+    background-color: rgb(225, 14, 14);
+}
+
+.btn-sm:hover {
+    background-color: grey;
+}
+
+.grid-image {
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 315px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.img-overlay {
+    width: 48%;
+    height: 192px;
+    background-color: black;
+    padding: 20px;
+}
+
+.paras {
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.secRight {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 500px;
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.secLeft {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: row-reverse;
+    height: 500px;
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.paragraph {
+    width: auto;
+    margin: auto;
+    padding: 10px 65px;
+}
+
+.sectionSubTag {
+    padding: 15px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail img {
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: rgb(246, 241, 236);
+    height: 93vh;
+}
+
+.text-center {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form {
+    max-width: 465px;
+    margin: auto;
+}
+
+.form-input {
+    padding: 5px 3px;
+    margin: 18px 0;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: rgb(79, 76, 76);
+}
+
+.text-footer {
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about{
+    color: white;
+    height: 65vh;
+}
+  
+.box{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 57%;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.7) url(../img/19.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.about-box{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.big-txt{
+    font-size: 53px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.small-txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 35px 0px;
+}
+
+.info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right-info{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 10px;
+}
+
+.middle-info{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 10px;
+    
+}
+
+.left-info{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 10px;
+}
+
+.bg-help {
+    background: rgba(0, 0, 0, 0.7) url(../img/help.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.help{
+    height: 55vh;
+}
+
+.help-center{
+    margin: auto;
+    padding-top: 140px;
+}
+
+.help-heading{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.help-search{
+    text-align: center;
+    padding: 35px 0;
+}
+
+.search-bar{
+    width: 35%;
+}
+
+.btn-search{
+    padding: 7px 15px;
+    margin: 8px 3px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    background-color: green;
+    cursor: pointer;
+}
+
+#search-id {
+    padding: 7px;
+    margin-right: 6px;
+    border: solid 2px grey;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+.footer-help {
+    background-color: rgb(79, 76, 76);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.vid-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-head{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 55px 0;
+}
+
+.vid{
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 5px;
+    background: none;
+}
+
+.vid-head{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back {
+    height: 88vh;
+    background: rgba(0, 0, 0, 0.7) url(../img/back.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.cancelbtn, .signupbtn:hover {
+    opacity: 3;
+}
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 6px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 47%;
+    opacity: 0.9;
+}
+
+.signup-head{
+    text-align: center;
+    margin: 20px;
+}
+
+.signup{
+    max-width: 465px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 5px 3px;
+    margin: 18px 0;
+    width: 97%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.signup-heading{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+.signup-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-grp{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
